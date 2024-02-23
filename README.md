@@ -19,18 +19,21 @@ Print both the values it would be interchanged
 End the program
 ## PROGRAM:
 ```
-#swapping of two variables
-#Developer Name : PYNAM VINODH
-#Reference Number : 23004069
-a = float(input())
-b = float(input())
-c=a
-a=b
-b=c
-print("Swapped values are:",a,b)a = float(input())
+#Developer Name : Prasanth E
+#Reference Number : 212221233002
+def swap_variables(x, y):
+  temp = x
+  x = y
+  y = temp
+  return x, y
+a = int(input())
+b = int(input())
+a, b = swap_variables(a, b)
+print("Swapped values are:", a, b)
 ```
 ## output
-![Screenshot 2023-10-18 114506](https://github.com/PYNAMVINODH/Swapping-two-values/assets/145742678/dc607d7f-30f9-439b-b98a-a932300fd372)
+![Screenshot (8)](https://github.com/PrasanthE2001/Swapping-two-values/assets/114572171/5694653b-911f-4b6d-8460-531ced7858cc)
+
 
 
 ## RESULT:
